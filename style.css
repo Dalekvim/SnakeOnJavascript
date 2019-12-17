@@ -1,0 +1,58 @@
+body {
+    background-color: orange;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+}
+
+header, img {
+    height: 75px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+canvas {
+    background-color: black;
+}
+
+h1 {
+    margin: 0;
+    padding: 2%;
+}
+
+h2 {
+    text-align: left;
+}
+
+h2, p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    text-align: justify;
+}
+
+@media only screen and (min-width: 1025px) {
+    main {
+        margin-top: 3%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 25px;
+    }
+
+    canvas {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    canvas {
+        width: 100%;
+    }
+}
